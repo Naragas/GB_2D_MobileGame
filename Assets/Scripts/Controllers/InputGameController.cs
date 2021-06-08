@@ -4,7 +4,7 @@ namespace GD_2D_MobileGame
 {
     internal class InputGameController : BaseController
     {
-        private readonly ResourcesPath _viewPath = new ResourcesPath {PathResource = "Prefabs/gyroscopeMove"};
+        private readonly ResourcesPath _viewPath = new ResourcesPath {PathResource = "Prefabs/MobileSingleStickControl"};
         private BaseInputView _view;
         
         public InputGameController(SubscriptionProperty<float> leftMove, SubscriptionProperty<float> rightMove, Car car)
