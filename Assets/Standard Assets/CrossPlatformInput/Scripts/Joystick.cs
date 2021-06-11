@@ -92,7 +92,10 @@ namespace UnityStandardAssets.CrossPlatformInput
 			UpdateVirtualAxes(transform.position);
 		}
 
-
+		public void SetStartPosition(Vector3 position)
+		{
+			m_StartPos = position;
+		}
 		public void OnPointerUp(PointerEventData data)
 		{
 			transform.position = m_StartPos;

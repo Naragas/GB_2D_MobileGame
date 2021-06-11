@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace GD_2D_MobileGame
+namespace GB_2D_MobileGame
 {
     public class BaseController : IDisposable
     {

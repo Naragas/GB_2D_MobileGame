@@ -1,6 +1,7 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 
-namespace GD_2D_MobileGame
+namespace GB_2D_MobileGame
 {
     internal class InputGameController : BaseController
     {
