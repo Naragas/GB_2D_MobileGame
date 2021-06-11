@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace GD_2D_MobileGame
+namespace GB_2D_MobileGame
 {
     public class MainMenuController : BaseController
     {
@@ -32,6 +32,8 @@ namespace GD_2D_MobileGame
         private void StartGame()
         {
             _profilerPlayer.CurrentState.Value = GameState.Game;
+            _profilerPlayer.AnalyticsTools.SendMessage("start_button_click");
+            _profilerPlayer.AdsTools.ShowVideoPlacement();
         }
     }
 }

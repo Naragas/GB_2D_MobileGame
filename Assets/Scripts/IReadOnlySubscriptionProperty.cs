@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GD_2D_MobileGame
+namespace GB_2D_MobileGame
 {
     public interface IReadOnlySubscriptionProperty<T>
     {

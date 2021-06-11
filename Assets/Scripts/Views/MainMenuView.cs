@@ -2,7 +2,7 @@
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace GD_2D_MobileGame
+namespace GB_2D_MobileGame
 {
     public class MainMenuView : MonoBehaviour
     {
