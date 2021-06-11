@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 11400000}
   - component: {fileID: 11400012}
   - component: {fileID: 8668198564976741303}
+  - component: {fileID: -6007113623518087154}
   m_Layer: 5
   m_Name: MobileSingleStickControl
   m_TagString: Untagged
@@ -103,6 +104,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de41ae443249b174fb7a24319d2ffeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-6007113623518087154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9787600753a34b98882a4b40c0e14275, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _joystick: {fileID: 0}
+  _canvasGroup: {fileID: 0}
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
